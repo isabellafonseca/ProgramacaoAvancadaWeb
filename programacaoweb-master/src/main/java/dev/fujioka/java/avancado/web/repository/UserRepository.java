@@ -29,7 +29,7 @@ public interface UserRepository
 	@Query("SELECT u FROM User u WHERE u.password = :password")
 		List<User> buscarUsuarioPorSenha(String password);
 	
-	 @Query("select u from User u where u.firstName like '%Luis%'")
+	 @Query("select u from User u where u.firstName like '%Isabella%'")
 	    List<User> procurar ();
 
 	 
